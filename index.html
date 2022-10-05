@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <main class="main-block">
+    <aside>
+      <div class="card personal-info">
+        <a href="#">
+          <img src="img/photo.jpg" alt="Portrait">
+        </a>
+        <div class="text-center">
+          <h3 class="resume__header full-name">
+            <span class="weight-400">Dev</span> Cat
+          </h3>
+          <div class="badge">Full Stack<br>Developer
+          </div>
+          <div class="social">
+            <a class="social__link" href="#"><i class="bi bi-telegram"></i></a>
+            <a class="social__link" href="#"><i class="bi bi-twitter"></i></a>
+            <a class="social__link" href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="text-bottom">
+          <ul class="contact-block">
+            <li class="contact-block__item">
+              <i class="bi bi-calendar"></i>
+              Jan 01, 2010
+            </li>
+            <li class="contact-block__item">
+              <i class="bi bi-geo-alt"></i>
+              Königsberg, Prussia
+            </li>
+            <li class="contact-block__item">
+              <a href="mailto:dev@cat.com">
+                <i class="bi bi-envelope"></i>
+                dev@cat.com
+              </a>
+            </li>
+            <li class="contact-block__item">
+              <a href="tel:+51234567890">
+                <i class="bi bi-phone"></i>
+                +5(123)456-7890
+              </a>
+            </li>
+            <li class="contact-block__item">
+              <a href="http://github.com">
+
+                <i class="bi bi-github"></i>
+                DevCat
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <div class="resume">
+      <section class="about">
+        <h2 class="resume__header about-me">
+          About Me
+        </h2>
+        <p class="resume__p">
+          Occasionally angry and sometimes frustrated developer guilty of creating complex solutions to simple problems.
+          Fluent in Python, SeeSharp, Mice++ and JS.
+        </p>
+        <p class="resume__p">
+          Busy inventing bicycles.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2 class="resume__header">My Expertise</h2>
+        <div class="skills__cards_wrapper">
+
+          <div class="skills__card">
+            <span class="skills__icon ">
+              <i class="bi bi-terminal"></i>
+            </span>
+            <div class="skills__card_text">
+
+              <h3 class="skills__header">
+                Backend
+              </h3>
+              <p class="resume__p skills__p">
+                Django, Flask, Node.js
+              </p>
+            </div>
+          </div>
+          <div class="skills__card">
+            <span class="skills__icon ">
+              <i class="bi bi-code-slash"></i>
+            </span>
+            <div class="skills__card_text">
+
+              <h3 class="skills__header">
+                Frontend
+              </h3>
+              <p class="resume__p skills__p">
+                HTML5, CSS3, JavaScript ES6, React, Webpack
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cv timeline">
+        <h2 class="resume__header">
+          CV
+        </h2>
+        <div class="container left">
+          <div class="content">
+            <h3 class="cv__header">Experience</h3>
+            <h4 class="cv__subheader">
+              Skillfactory Python Fullstack Dev
+            </h4>
+            <h5 class="cv__subheader">
+              Key Qualifications & Responsibilities
+            </h5>
+            <ul>
+              <li>Developed web apps using Django, Redis, RabbitMQ, PostgreSQL, REST API, Celery.</li>
+              <li>Contributed to open source projects.</li>
+            </ul>
+            <h5 class="cv__subheader">
+              Achievements
+            </h5>
+            <ul>
+              <li>Implemented new responsive, mobile-first approach which increased
+                mobile traffic by 20%.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h3 class="cv__header">Education</h3>
+            <h4 class="cv__subheader">
+              Majoring in Web Dev
+            </h4>
+            <em>
+              @SkillFactory
+            </em>
+            <p>
+              <strong>Expected Graduation: </strong> <em>2023</em>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="certificates">
+
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/certificates/01.jpg" style="width:100%">
+            <div class="text">My Certificates</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/certificates/02.jpg" style="width:100%">
+            <div class="text">My Certificates</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/certificates/03.jpg" style="width:100%">
+            <div class="text">My Certificates</div>
+          </div>
+
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+
+</body>
+
+</html>
